@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_now"
+            android:icon="@drawable/noun_1058239_cc"
+            android:title="상영중" />
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/noun_1058239_cc"
+            android:title="개봉 예정작" />
+
+        <item
+            android:id="@+id/nav_gps"
+            android:icon="@drawable/noun_975314_cc"
+            android:title="주변 영화관" />
+    </group>
+
+    <item android:title="영화관">
+        <menu>
+            <item
+                android:id="@+id/nav_cgv"
+                android:icon="@drawable/movies"
+                android:title="CGV" />
+            <item
+                android:id="@+id/nav_lotte"
+                android:icon="@drawable/movies"
+                android:title="롯데시네마" />
+            <item
+                android:id="@+id/nav_maga"
+                android:icon="@drawable/movies"
+                android:title="MagaBox" />
+        </menu>
+    </item>
+
+</menu>

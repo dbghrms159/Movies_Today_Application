@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MoviesToday</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_web_view">WebView</string>
+    <string name="banner_ad_unit_id"> ca-app-pub-9230927265052013/6913340481</string>
+    <string name="title_activity_list_text_view">listTextView</string>
+</resources>
